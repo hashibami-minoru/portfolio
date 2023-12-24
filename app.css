@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color:white;
+}
+
+.logo{
+    width: auto;
+    height: 72px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.main-nav{
+    list-style: none;
+    font-family:'Zen Antique', serif;
+}
+
+.main-nav li{
+    margin-left: 40px;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
