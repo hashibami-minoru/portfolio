@@ -2,6 +2,7 @@
 
 body{
     background-color:white;
+    font-family:'Zen Antique', serif ;
 }
 
 .logo{
@@ -25,6 +26,8 @@ body{
     justify-content: space-between;
 }
 
-.aboutme{
-    font-family:'Zen Antique', serif;
+.wrapper{
+    max-width: 1900px;
+    margin:auto;
+    padding: 0 4%;
 }
