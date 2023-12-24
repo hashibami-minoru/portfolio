@@ -24,3 +24,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.aboutme{
+    font-family:'Zen Antique', serif;
+}
