@@ -33,3 +33,10 @@ body{
     margin:auto;
     padding: 0 4%;
 }
+
+.aboutme{
+    display:flex;
+    font-size: 26px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
