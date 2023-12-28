@@ -5,11 +5,25 @@ body{
     font-family: 'Zen Antique', serif;
 }
 
+#header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrapper{
+    max-width: 1900px;
+    margin:auto;
+    padding: 0 4%;
+}
+
 .logo{
-    width: auto;
-    height: 144px;
-    margin-top: 20px;
-    margin-left: 0px;
+    width: 400px;
+    height: auto;
 }
 
 .main-nav{
@@ -21,17 +35,6 @@ body{
 
 .main-nav li{
     margin-left: 40px;
-}
-
-.page-header{
-    display: flex;
-    justify-content: space-between;
-}
-
-.wrapper{
-    max-width: 1900px;
-    margin:auto;
-    padding: 0 4%;
 }
 
 .about{
@@ -53,7 +56,7 @@ body{
     height: auto;
 }
 
-.Works{
+#works{
     font-size: 40px;
     margin-top: 200px;
     margin-left: 80px;
