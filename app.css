@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color:white;
+    background-color:#c2ae87;
     font-family: 'Zen Antique', serif;
 }
 
@@ -13,6 +13,8 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    color: white;
+    background-color: #664032;
 }
 
 .wrapper{
@@ -22,7 +24,7 @@ body{
 }
 
 .logo{
-    width: 400px;
+    width: 800px;
     height: auto;
 }
 
@@ -37,28 +39,34 @@ body{
     margin-left: 40px;
 }
 
-.about{
-    font-size: 40px;
-    margin-top: 200px;
+#about{
+    font-size: 52px;
+    margin-top: 100px;
     margin-left: 80px;
     margin-right: 80px;
 }
 
 .aboutme{
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
     font-size: 26px;
     margin-left: 80px;
     margin-right: 80px;
 }
 
+.name{
+    font-size: 40px;
+    margin-left: 80px;
+}
+
 .tachie{
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 550px;
+    padding-left: 80px;
 }
 
 #works{
-    font-size: 40px;
-    margin-top: 200px;
+    font-size: 52px;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -66,4 +74,28 @@ body{
 .works{
     margin-left: 80px;
     margin-right: 80px;
+}
+
+.works-tab li{
+    margin-left: 40px;
+}
+
+.tab{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+.tab li a{
+    display: block;
+    background: #bfa46f;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px 40px;
+}
+
+.tab li.active a{
+    background: #af8308;
 }
