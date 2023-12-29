@@ -99,6 +99,61 @@ body{
     background: #af8308;
 }
 
+.area{
+    display: none;
+    opacity: 1;
+    background: #af8308;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 20px;
+}
+
+.area.is-active{
+    display: block;
+    width: auto;
+    animation-name: displayAnime;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background: #af8308;
+}
+
+@keyframes displayAnime{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.containor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works_item{
+    width: 430px;
+    height: auto;
+    padding: 1rem;
+}
+
+.img_acc{
+    columns: 4;
+    padding: 0 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.img_acc li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.img_acc img{
+    width: 100%;
+    height: auto;
+}
+
 #contact{
     font-size: 52px;
     margin-left: 80px;
