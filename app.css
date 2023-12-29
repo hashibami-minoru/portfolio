@@ -18,9 +18,8 @@ body{
 }
 
 .wrapper{
-    max-width: 1900px;
-    margin:auto;
-    padding: 0 4%;
+    width: auto;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .logo{
@@ -31,7 +30,7 @@ body{
 .main-nav{
     display: flex;
     font-size: 32px;
-    margin-top: 40px;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     list-style: none;
 }
 
@@ -83,7 +82,7 @@ body{
 .tab{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 40px;
+    margin-left: 80px;
     font-size: 24px;
 }
 
@@ -98,4 +97,32 @@ body{
 
 .tab li.active a{
     background: #af8308;
+}
+
+#contact{
+    font-size: 52px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.about_contact{
+    font-size: 26px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.link:link {
+    color:#693401;
+}
+
+.link:hover{
+    color: aliceblue;
+}
+
+.link:visited{
+    color: #ffd889;
+}
+
+.link:active{
+    color: beige;
 }
