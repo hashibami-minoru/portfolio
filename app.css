@@ -167,6 +167,13 @@ a[target="_blank"]::after {
     margin-right: 80px;
 }
 
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    font-size: 26px;
+}
+
 .banner{
     margin-left: 80px;
     flex-wrap: wrap;
@@ -193,18 +200,6 @@ a[target="_blank"]::after {
     margin-right: 80px;
 }
 
-.link:link {
-    color:#693401;
-}
-
-.link:hover{
-    color: aliceblue;
-}
-
-.link:visited{
-    color: #ffd889;
-}
-
-.link:active{
-    color: beige;
+.about_contact a{
+    text-decoration: underline;
 }
